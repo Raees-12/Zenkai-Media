@@ -818,7 +818,7 @@ img {
 
 .contact-form-title {
     font-family: 'Caveat Regular', cursive;
-    font-size: 18px;
+    font-size: 24px;
     color: var(--color-dark-gray);
 }
 
@@ -1076,4 +1076,5 @@ img {
     .hero-title {
         font-size: 110px;
     }
+
 }
