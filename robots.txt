@@ -1,21 +1,16 @@
-# Zenkai Media Robots.txt
+# Zenkai Media - Optimized Robots.txt
 # Last updated: 2025-11-07
-# Note: Site uses client-side rendering - consider prerendering for optimal crawling
 
 User-agent: *
 Allow: /
-Allow: /#/
 
-# Admin and system paths
-Disallow: /wp-admin/
 Disallow: /admin/
-Disallow: /cms/
-Disallow: /wp/
 Disallow: /backend/
+Disallow: /cms/
 
-# Sitemap
+Allow: /*.js$
+Allow: /*.css$
+Allow: /assets/
+Allow: /Assets/
+
 Sitemap: https://zenkaimedia.in/sitemap.xml
-
-# Cache instructions
-# Cache-Control: public, max-age=3600
-# Enable prerendering for dynamic content if needed
