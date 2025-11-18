@@ -110,23 +110,28 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update active state on scroll
     window.addEventListener('scroll', updateActiveLink);
 
-    // Handle smooth scrolling for navigation links
+    // Handle smooth scrolling for internal hash navigation links only
     navLinks.forEach(link => {
         link.addEventListener('click', e => {
-            e.preventDefault();
-            const targetId = link.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            
-            if (targetSection) {
-                targetSection.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
+            const href = link.getAttribute('href');
 
-                // Update active state
-                navLinks.forEach(navLink => navLink.classList.remove('active'));
-                link.classList.add('active');
+            // Only intercept clicks for internal anchor links (starting with '#')
+            if (href && href.startsWith('#')) {
+                e.preventDefault();
+                const targetSection = document.querySelector(href);
+
+                if (targetSection) {
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+
+                    // Update active state
+                    navLinks.forEach(navLink => navLink.classList.remove('active'));
+                    link.classList.add('active');
+                }
             }
+            // For external links (PDFs, mailto, http, etc.) allow default behavior
         });
 
         // Hover animation
