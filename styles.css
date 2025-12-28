@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('Assets/Stocks/Backgrund.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('Assets/Stocks/Backgrund.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1210,4 +1210,5 @@ nav {
 .footer-section a,
 .footer-social a {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
 }
