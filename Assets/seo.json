@@ -1,0 +1,85 @@
+{
+  "keywords": {
+    "money_keywords": [
+      "digital marketing agency",
+      "performance marketing agency",
+      "social media management services",
+      "google ads agency",
+      "meta ads agency",
+      "travel marketing agency",
+      "DMC marketing agency",
+      "branding agency",
+      "video production agency",
+      "content marketing services"
+    ],
+    "info_keywords": [
+      "how to generate leads using social media",
+      "how travel companies get more bookings online",
+      "how to run google ads for travel business",
+      "importance of branding for businesses",
+      "how social media marketing helps businesses grow"
+    ],
+    "local_keywords": [
+      "digital marketing agency in Ahmedabad",
+      "social media marketing Ahmedabad",
+      "branding agency Ahmedabad",
+      "video production agency Ahmedabad",
+      "performance marketing agency Ahmedabad"
+    ],
+    "brand_keywords": [
+      "Zenkai Media",
+      "Zenkai Media services",
+      "Zenkai Media case studies",
+      "Zenkai Media portfolio"
+    ]
+  },
+
+  "meta_data": {
+    "home": {
+      "title": "Zenkai Media | Performance Marketing & Branding Agency in Ahmedabad",
+      "description": "Zenkai Media is a performance-driven digital marketing agency helping brands grow through social media management, Google & Meta Ads, SEO, branding, and creative storytelling."
+    },
+
+    "about": {
+      "title": "About Zenkai Media | Digital Marketing & Creative Agency",
+      "description": "Learn about Zenkai Media, a results-focused digital marketing agency delivering social media, performance marketing, branding, and creative solutions for growing businesses."
+    },
+
+    "case_studies": {
+      "title": "Digital Marketing Case Studies | Zenkai Media",
+      "description": "Explore real growth case studies across travel, DMCs, cosmetics, and service-based businesses powered by Zenkai Media’s performance marketing strategies."
+    },
+
+    "case_study_travel": {
+      "title": "Travel & DMC Marketing Case Study | Zenkai Media",
+      "description": "See how Zenkai Media helped a premium DMC scale lead generation, social reach, and conversions through strategic social media and performance marketing."
+    },
+
+    "case_study_cosmetics": {
+      "title": "Cosmetics Brand Growth Case Study | Zenkai Media",
+      "description": "Discover how Zenkai Media supported a cosmetics brand with content creation, social media growth, and performance-driven digital campaigns."
+    },
+
+    "case_study_services": {
+      "title": "Service Business Growth Case Study | Zenkai Media",
+      "description": "Learn how Zenkai Media helps service-based businesses grow online through branding, social media management, and performance marketing."
+    },
+
+    "case_study_real_estate": {
+      "title": "Real Estate Marketing Case Study | Zenkai Media",
+      "description": "See how Zenkai Media helped a real estate brand generate qualified property leads using social media, video, and performance marketing."
+    }
+  },
+
+  "open_graph": {
+    "title": "Zenkai Media | Performance Marketing & Creative Agency",
+    "description": "Helping brands grow with social media marketing, paid ads, SEO, branding, and high-impact creative solutions.",
+    "image": "https://zenkaimedia.in/Assets/Logo/website-logo.png",
+    "type": "website"
+  },
+
+  "canonical": {
+    "preferred_domain": "https://zenkaimedia.in",
+    "protocol": "https"
+  }
+}
